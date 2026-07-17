@@ -20,7 +20,15 @@
     "externalControllerServiceReferences" : { },
     "flowFileConcurrency" : "UNBOUNDED",
     "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
-    "funnels" : [ ],
+    "funnels" : [ {
+      "componentType" : "FUNNEL",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "97e579f3-d414-3490-acb7-d26ef3d7d263",
+      "position" : {
+        "x" : -113.99999447423875,
+        "y" : -178.60067874432923
+      }
+    } ],
     "identifier" : "flow-contents-group",
     "inputPorts" : [ ],
     "labels" : [ ],
@@ -44,6 +52,6 @@
   "snapshotMetadata" : {
     "author" : "test",
     "flowIdentifier" : "test",
-    "timestamp" : 1784272342632
+    "timestamp" : 1784272482682
   }
 }
